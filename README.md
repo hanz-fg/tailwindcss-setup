@@ -1,15 +1,13 @@
-# Tailwind CSS Starter
-
-This is a dead simple Tailwind CSS HTML Starter Template for Beginners.
+# Tailwind DAISY UI SETUP
 
 ## How to use
 
 First clone the code to your local system from github.
 
 ```bash
-git clone https://github.com/web3templates/tailwindcss-starter.git project-name
+git clone https://github.com/hanz-fg/tailwindcss-setup.git project-name
 # or run (inside your project folder. need dot (.) in the end)
-git clone https://github.com/web3templates/tailwindcss-starter.git .
+git clone https://github.com/hanz-fg/tailwindcss-setup.git .
 ```
 
 Now, Install Node dependencies by installing the following command.
@@ -28,7 +26,7 @@ pnpm dev
 npm run dev
 ```
 
-This template uses **Vite** for development server, but you can also use VSCode Live Preview option or Live Server Plugin. If you use vite, you will see a localhost port address like: `http://localhost:5173` which you can click to open in any browser.
+This template uses **Vite** for development server, you will see a localhost port address like: `http://localhost:5173` which you can click to open in any browser.
 
 ## Publishing / Deployment
 
