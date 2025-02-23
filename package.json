@@ -1,0 +1,27 @@
+{
+  "name": "capstone-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "npx tailwindcss -i ./styles/tailwind.css -o ./public/assets/main.css --watch",
+    "dev": "concurrently npm:watch:css & vite",
+    "dev-network": "concurrently npm:watch:css & vite --host",
+    "build": "npx tailwindcss -i ./styles/tailwind.css -o ./public/assets/main.css && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "daisyui": "^4.12.23",
+    "glob": "^10.3.3",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "vite": "^4.4.9"
+  }
+}
